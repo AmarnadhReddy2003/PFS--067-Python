@@ -64,13 +64,57 @@
 #     print(price)
 
 
-# # List Element Validation
-# n1=int(input('Enter the 1 element in List: '))
-# n2=int(input('Enter the 2 element in List: '))
-# n3=int(input('Enter the 3 element in List: '))
-# n4=int(input('Enter the 4 element in List: '))
-# n5=int(input('Enter the 5 element in List: '))
-# l=[n1,n2,n3,n4,n5]
-# if l[0]
+# List Element Validation
+n1=int(input('Enter the 1 element in List: '))
+n2=int(input('Enter the 2 element in List: '))
+n3=int(input('Enter the 3 element in List: '))
+n4=int(input('Enter the 4 element in List: '))
+n5=int(input('Enter the 5 element in List: '))
+l=[n1,n2,n3,n4,n5]
+count=0
+if l[0]==50:
+    print('50 is available')
+    if l[0]>0:
+        count+=1
+    else:
+        pass
+else:
+    print('50 is not available')
+if l[1]==50:
+    print('50 is available')
+    if l[1]>0:
+        count+=1
+    else:
+        pass
+else:
+    print('50 is not available')
+if l[2]==50:
+    print('50 is available')
+    if l[2]>0:
+        count+=1
+    else:
+        pass
+else:
+    print('50 is not available')
+if l[3]==50:
+    print('50 is available')
+    if l[3]>0:
+        count+=1
+    else:
+        pass
+else:
+    print('50 is not available')
+if l[4]==50:
+    print('50 is available')
+    if l[4]>0:
+        count+=1
+    else:
+        pass
+else:
+    print('50 is not available')
+if count>=3:
+    print('Many Positive Numbers')
+else:
+    pass
 
-print('Hai')
+
