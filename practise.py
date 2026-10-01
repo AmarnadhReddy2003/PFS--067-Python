@@ -119,14 +119,38 @@
 #     pass
 
 
-# Creating a Dictionary
-Employee={
-    'Name' : input("Enter you'r Name: "),
-    'Age' : input("Enter you'r Age: "),
-    'Experience' : input("Enter you'r work Experience ")
-}
-print(Employee['Name'])
-print(Employee.get('Age'))
-print(Employee.get('Experience'))
-print(Employee)
+# # Creating a Dictionary
+# Employee={
+#     'Name' : input("Enter you'r Name: "),
+#     'Age' : input("Enter you'r Age: "),
+#     'Experience' : input("Enter you'r work Experience ")
+# }
+# print(Employee['Name'])
+# print(Employee.get('Age'))
+# print(Employee.get('Experience'))
+# print(Employee)
+
+
+# Employee Hiring Decision
+C={
+    'Name' : input('Enter your Name: '),
+    'Age' : int(input('Enter your Age: ')),
+    'Experience' : int(input('Enter your Work Experience:')),
+    'Notice Perioed': input('Do you have Notice period: (30 doys or 6o days)'),
+    'Projects' : int(input('How many Project have you done? '))
+    }
+Qualifications=['B.tech','MCA','Degree']
+Skills=['Python','SQL','Flask','Django']
+Locations=['Hyderabad','Noida','Delhi','Chennai']
+Education=input('Enter your Qualification: (B.tech or MCA etc)')
+Skill=input('Enter the skills you have: (Python, SQL, Flask, Django etc)')
+Job_Locations=input('Prefered Job Location: (Hyd or Chennai or Noida etc)')
+
+if 18<= C['Age'] <=45 and C['Experience']>=2 and Skill in Skills and C['Projects']>=3 and Job_Locations in Locations and Education in Qualifications:
+    print('Your are Sucessfully Hired')
+else:
+    print('Appreciating your Efforts,Try Again')
+
+
+
 
