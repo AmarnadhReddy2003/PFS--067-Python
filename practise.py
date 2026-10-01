@@ -64,58 +64,69 @@
 #     print(price)
 
 
-# List Element Validation
-n1=int(input('Enter the 1 element in List: '))
-n2=int(input('Enter the 2 element in List: '))
-n3=int(input('Enter the 3 element in List: '))
-n4=int(input('Enter the 4 element in List: '))
-n5=int(input('Enter the 5 element in List: '))
-l=[n1,n2,n3,n4,n5]
-count=0
-if l[0]>0:
-    count+=1
-    if l[0]==50:
-        print('1,50 is available')
-    else:
-        print('1,50 is not available')
-else:
-    pass
-if l[1]>0:
-    count+=1
-    if l[1]==50:
-        print('2,50 is available')
-    else:
-        print('2,50 is not available')
-else:
-    pass
-if l[2]>0:
-    count+=1
-    if l[2]==50:
-        print('3,50 is available')
-    else:
-        print('3,50 is not available')
-else:
-    pass
-if l[3]>0:
-    count+=1
-    if l[3]==50:
-        print('4,50 is available')
-    else:
-        print('4,50 is not available')
-else:
-    pass
-if l[4]>0:
-    count+=1
-    if l[4]==50:
-        print('5,50 is available')
-    else:
-        print('5,50 is not available')
-else:
-    pass
+# # List Element Validation
+# n1=int(input('Enter the 1 element in List: '))
+# n2=int(input('Enter the 2 element in List: '))
+# n3=int(input('Enter the 3 element in List: '))
+# n4=int(input('Enter the 4 element in List: '))
+# n5=int(input('Enter the 5 element in List: '))
+# l=[n1,n2,n3,n4,n5]
+# count=0
+# if l[0]>0:
+#     count+=1
+#     if l[0]==50:
+#         print('1,50 is available')
+#     else:
+#         print('1,50 is not available')
+# else:
+#     pass
+# if l[1]>0:
+#     count+=1
+#     if l[1]==50:
+#         print('2,50 is available')
+#     else:
+#         print('2,50 is not available')
+# else:
+#     pass
+# if l[2]>0:
+#     count+=1
+#     if l[2]==50:
+#         print('3,50 is available')
+#     else:
+#         print('3,50 is not available')
+# else:
+#     pass
+# if l[3]>0:
+#     count+=1
+#     if l[3]==50:
+#         print('4,50 is available')
+#     else:
+#         print('4,50 is not available')
+# else:
+#     pass
+# if l[4]>0:
+#     count+=1
+#     if l[4]==50:
+#         print('5,50 is available')
+#     else:
+#         print('5,50 is not available')
+# else:
+#     pass
 
-if count>=3:
-    print('Many Positive Numbers')
-else:
-    pass
+# if count>=3:
+#     print('Many Positive Numbers')
+# else:
+#     pass
 
+
+# Creating a Dictionary
+Employee={
+    'Name' : input("Enter you'r Name: "),
+    'Age' : input("Enter you'r Age: "),
+    'Experience' : input("Enter you'r work Experience ")
+}
+print(Employee['Name'])
+print(Employee.get('Age'))
+print(Employee.get('Experience'))
+print(Employee)
 
