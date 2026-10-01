@@ -72,46 +72,47 @@ n4=int(input('Enter the 4 element in List: '))
 n5=int(input('Enter the 5 element in List: '))
 l=[n1,n2,n3,n4,n5]
 count=0
-if l[0]==50:
-    print('50 is available')
-    if l[0]>0:
-        count+=1
+if l[0]>0:
+    count+=1
+    if l[0]==50:
+        print('1,50 is available')
     else:
-        pass
+        print('1,50 is not available')
 else:
-    print('50 is not available')
-if l[1]==50:
-    print('50 is available')
-    if l[1]>0:
-        count+=1
+    pass
+if l[1]>0:
+    count+=1
+    if l[1]==50:
+        print('2,50 is available')
     else:
-        pass
+        print('2,50 is not available')
 else:
-    print('50 is not available')
-if l[2]==50:
-    print('50 is available')
-    if l[2]>0:
-        count+=1
+    pass
+if l[2]>0:
+    count+=1
+    if l[2]==50:
+        print('3,50 is available')
     else:
-        pass
+        print('3,50 is not available')
 else:
-    print('50 is not available')
-if l[3]==50:
-    print('50 is available')
-    if l[3]>0:
-        count+=1
+    pass
+if l[3]>0:
+    count+=1
+    if l[3]==50:
+        print('4,50 is available')
     else:
-        pass
+        print('4,50 is not available')
 else:
-    print('50 is not available')
-if l[4]==50:
-    print('50 is available')
-    if l[4]>0:
-        count+=1
+    pass
+if l[4]>0:
+    count+=1
+    if l[4]==50:
+        print('5,50 is available')
     else:
-        pass
+        print('5,50 is not available')
 else:
-    print('50 is not available')
+    pass
+
 if count>=3:
     print('Many Positive Numbers')
 else:
