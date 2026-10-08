@@ -60,11 +60,60 @@
 # ? - Zero or one occurrence of the preceding character or group
 # {} - Specifies the exact number of occurrences of the preceding character or group
 
-import re
-value=input('Enter the String: ')
-pattern=r"^\d+$"
+# import re
+# value=input('Enter the String: ')
+# pattern=r"^\d+$"
 
-if re.fullmatch(pattern,value):
-    print('Only Digits')
-else:
-    print('Invalid')
+# if re.fullmatch(pattern,value):
+#     print('Only Digits')
+# else:
+#     print('Invalid')
+
+
+
+# # Phone Number Validation Program
+# import re
+# phone=input('Enter Number: ')
+# pattern=r"^[6-9]\d{9}$"
+# if re.fullmatch(pattern,phone):
+#     print('Valid')
+# else:
+#     print('Invalid')
+
+
+# # Email Validation
+# # username@domain.com
+# # r"^[\w.-]+@[\w.-]+\.\w+$"
+# # [\w.-]+ - user name 
+# # [\w.-]+ - domain
+# # \. - dot opearation
+# # \w+ - .com or .in 
+# import re
+# email=input('Enter Email: ')
+# pattern=r"^[\w.-]+@[\w.-]+\.\w+$"
+# if re.fullmatch(pattern,email):
+#     print('Valid')
+# else:
+#     print('Invalid')
+
+# # Name Password Validation
+# import re
+# name=input('Enter Name: ')
+# password=input('Enter the password: ')
+
+# # Name
+# if re.fullmatch(r"[A-Za-z]+",name):
+#     print('Valid')
+# else:
+#     print('Invalid')
+
+# # Password pattern
+# pattern=r"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}$"
+# if re.fullmatch(pattern,password):
+#     print('Valid')
+# else:
+#     print('Invalid')
+
+# # r- raw string
+# # ^ - start of string
+# # ?=. - positive lookahead  
